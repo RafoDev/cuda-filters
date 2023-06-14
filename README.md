@@ -131,7 +131,7 @@ __global__ void blurKernel(unsigned char *Pout, unsigned char *Pin, int width, i
 	// Se verifica que el píxel se encuentre dentro de los límites de la imagen
 	if (Col < width && Row < height)
 	{
-		// Se inicializan las variables que almacenaran los valores acumulados de los canales de color de los píxeles vecinos
+	  // Se inicializan las variables que almacenaran los valores acumulados de los canales de color de los píxeles vecinos
 		int pixVal_r = 0;
 		int pixVal_g = 0;
 		int pixVal_b = 0;
